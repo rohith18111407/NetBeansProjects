@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="NewTransactionLabel1" min="-2" max="-2" attributes="0"/>
+                  <Component id="BookSearch" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="AuthorNameLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="TitleLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="BookId" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="MemberNameLabel1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="TransactionIdLabel1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="EmailLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="BorrowDateLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="BookIdTextField" max="32767" attributes="0"/>
+                          <Component id="AuthorNameTextField1" max="32767" attributes="0"/>
+                          <Component id="TitleTextField1" max="32767" attributes="0"/>
+                          <Component id="TransactionIdTextField1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="MemberNameTextField1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="EmailTextField1" max="32767" attributes="0"/>
+                          <Component id="BorrowDateTextField1" pref="140" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="PublisherNameLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="ISBNLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="PhoneLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="AddressLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="FineAmountLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jTextField1" min="-2" max="-2" attributes="0"/>
+                          <Component id="ISBNTextField1" max="32767" attributes="0"/>
+                          <Component id="PublisherNameTextField1" max="32767" attributes="0"/>
+                          <Component id="PhoneTextField1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="AddressTextField1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="FineAmountTextField1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="ReturnDateTextField1" pref="140" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="114" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+              <Component id="BookSearch" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="BookIdTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BookId" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ISBNLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ISBNTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="AuthorNameLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="AuthorNameTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="PublisherNameLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="PublisherNameTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="TitleLabel1" min="-2" max="-2" attributes="0"/>
+                  <Component id="TitleTextField1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              <Component id="NewTransactionLabel1" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="TransactionIdLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="TransactionIdTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="PhoneTextField1" min="-2" max="-2" attributes="0"/>
+                          <Component id="PhoneLabel1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jTextField1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="MemberNameLabel1" min="-2" max="-2" attributes="0"/>
+                  <Component id="MemberNameTextField1" min="-2" max="-2" attributes="0"/>
+                  <Component id="AddressLabel1" min="-2" max="-2" attributes="0"/>
+                  <Component id="AddressTextField1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="EmailLabel1" min="-2" max="-2" attributes="0"/>
+                          <Component id="EmailTextField1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="FineAmountTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="FineAmountLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="BorrowDateLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="BorrowDateTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ReturnDateTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="370" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="BookSearch">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="BookSearch "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="BookId">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="BookId"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="BookIdTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BookIdTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="AuthorNameLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="AuthorName"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="AuthorNameTextField1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="TitleLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Title"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TitleTextField1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TitleTextField1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="PublisherNameLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PublisherName"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="PublisherNameTextField1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PublisherNameTextField1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NewTransactionLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="NewTransaction"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TransactionIdLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="TransactionId"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TransactionIdTextField1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TransactionIdTextField1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MemberNameLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="MemberName"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="MemberNameTextField1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MemberNameTextField1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ISBNLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ISBN"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ISBNTextField1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ISBNTextField1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="PhoneLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Phone"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="PhoneTextField1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="AddressLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Address"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jTextField1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="AddressTextField1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AddressTextField1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="EmailLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Email"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="EmailTextField1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="FineAmountLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="FineAmount"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="FineAmountTextField1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FineAmountTextField1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="BorrowDateLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="BorrowDate"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="BorrowDateTextField1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BorrowDateTextField1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ReturnDate"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ReturnDateTextField1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ReturnDateTextField1ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
